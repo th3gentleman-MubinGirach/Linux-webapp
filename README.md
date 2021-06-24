@@ -4,7 +4,7 @@
 <b>Just make sure you edit the sudoers file accordingly so you don't get any problem</b>
 <h2>Steps to configure or rather run this program</h2>
 <ol>
-<li>Copy the <ul> <li> index.html </li> <li> css </li> <li>js</li> <li> fonts </li> </ul> </br> in the /var/www/html/ directly </li>
+<li>Copy the <ul> <li> index.html </li> <li> css </li> <li>js</li> <li> fonts in the /var/www/html/ directly </li> </ul>  </li>
 <li> Further copy the task7.py in the /var/www/cgi-bin/ directory </li>
 <li> Start and enable httpd service </li>
 <i> Enjoy !! </i>
