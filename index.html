@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 7</title>
+	<link rel="stylesheet" type="text/css" href=./css/bootstrap.min.css>	
+	<style type="text/css">
+		body{
+			padding-top: 70px;
+			background: rgb(244, 91, 105);}
+			.jumbotron {
+				color:#000000;
+				background: #f6e8ea;
+
+			.navbar-inverse {background: #2c3e50;
+
+			}	
+			}
+		}
+
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+				<a href="https://www.linuxworldindia.org/" class="navbar-brand"> Linux World</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="https://rightarth.com/">Right ARTH</a></li>
+					
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				
+					<li><a href="https://www.linuxworldindia.org/linuxworldindia-address-contactus.php">Connect</a></li>>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<div class="container">
+	<div class="jumbotron">
+	<h1>Docker On WebApp </h1>
+	<p>Run Docker Commands Here</p>
+</div>
+
+<script>
+	function yash(){
+
+	
+	var i = document.getElementById("input").value
+	var xhr = new XMLHttpRequest();
+	
+	xhr.open("GET", "http://192.168.0.106/cgi-bin/task7.py?x=" + i, true);
+	xhr.send();
+     	
+	
+	// output from above url
+	
+	xhr.onload = function(){
+		
+		var output = xhr.responseText;
+                document.getElementById("d1").innerHTML = output;
+		 
+	}
+     }           	
+	</script>
+	
+	Command : <input id ="input"/>
+	<br/>
+	<pre>
+		<div id = "d1">output</div>
+		 </pre>
+	<button onclick = "yash();">click</button>
+	
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
