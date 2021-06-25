@@ -5,6 +5,7 @@
 <h2>Steps to configure or rather run this program</h2>
 <ol>
 <li>Copy the <ul> <li> index.html </li> <li> css </li> <li>js</li> <li> fonts in the <b>/var/www/html/</b> directly </li> </ul>  </li>
+  <li>Dont forget to replace the IP address of your machine in the index.html file </li>
   <li> Further copy the task7.py in the <b>/var/www/cgi-bin/</b> directory </li>
 <li> Start and enable httpd service </li>
 <i> Enjoy !! </i>
