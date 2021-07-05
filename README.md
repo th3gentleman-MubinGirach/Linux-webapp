@@ -9,3 +9,5 @@
   <li> Further copy the task7.py in the <b>/var/www/cgi-bin/</b> directory </li>
 <li> Start and enable httpd service </li>
 <i> Enjoy !! </i>
+  
+ <b> For Reference Video <a href="https://www.linkedin.com/posts/mubingirach_linux-ui-html-activity-6814185512375468032-X9tl">Click here</a>
